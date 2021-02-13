@@ -35,6 +35,7 @@ export default function UserContainer() {
   }
 
   const sort = (e) => {
+    const colName = e.target.id
     let order
 
     if(selectedCol !== e.target.id)
@@ -44,7 +45,13 @@ export default function UserContainer() {
     
     setSortOrder(order)
     setSelectedCol(e.target.id)
-    setUserData(orderBy(usersData, e.target.id, order))
+    if(colName === 'address.city'){
+      setUserData(orderBy(usersData, [user => user.address.city.toLowerCase() ], order))
+    } else if (colName === 'id'){
+      setUserData(orderBy(usersData, colName, order))
+    } else {
+      setUserData(orderBy(usersData, [user => user[colName].toLowerCase() ], order))
+    }
   }
 
   return  (  
