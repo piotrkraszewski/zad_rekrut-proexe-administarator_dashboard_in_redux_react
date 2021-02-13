@@ -1,0 +1,53 @@
+.DeleteConfirmModal-animation{
+  position: absolute;
+  z-index: 3000;
+}
+
+.DeleteConfirmModal{
+  width: 90%;
+  min-width: 400px;
+  max-width: 500px;
+  background-color: rgb(32, 32, 32);
+  z-index: 2200;
+  text-align: center;
+}
+
+
+.Modal-Overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+.Modal-Style{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: $darkGreen;
+  padding: 20px;
+  z-index: 1000;
+  border-radius: 30px;
+  align-items: center; 
+  justify-content: center;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.confirmation-buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-confirmation{
+  width: 150px;
+  margin: 5px;
+  margin-top: 20px;
+}
+

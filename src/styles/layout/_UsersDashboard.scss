@@ -1,0 +1,68 @@
+.UsersDashboardElement{
+  position: absolute;
+  width: 100%;
+
+  // center positioning
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 5%;
+}
+
+.UsersDashboardConainer{
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 100%;
+}
+
+.tableContainer{
+  width: 100%;
+  border: solid 1px $myWhite;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(20, 20, 20)
+}
+
+.topTable{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  // border-bottom: solid 1px $white;
+}
+
+.addNew,.userList{
+  margin: 15px;
+}
+
+.addNew{
+  width: 120px;
+}
+
+.resTable{
+  border: solid 1px $myWhite;
+  border-radius: 10px;
+  margin: 0 10px;
+  margin-bottom: 15px;
+}
+
+.table{
+  margin-bottom:10px;
+}
+
+.thead{
+  background: rgba(0, 0, 0, 0.15);
+}
+
+
+.btn{
+  font-size: 15px;
+  padding: 5px;
+}
+
+.noUsers{
+  display: flex;
+  justify-content:center;
+}
+
+.sort{
+  cursor: pointer; 
+}

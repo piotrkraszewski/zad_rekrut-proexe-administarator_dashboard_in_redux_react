@@ -1,0 +1,22 @@
+body {
+  background: black;
+  font-family: $lato;
+  font-size: 15px;
+  color: $white;
+}
+
+th,td{
+  color: $white;
+}
+
+.BgImage{
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  z-index:-2;
+
+  // works like background-image. BgImage works on every size !!!
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+}

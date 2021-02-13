@@ -1,0 +1,62 @@
+.UsersDashboardElement{
+  position: absolute;
+  width: 100%;
+
+  // center positioning
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 5%;
+}
+
+.UsersDashboardConainer{
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 100%;
+}
+
+.formContainer{
+  width: 100%;
+  border: solid 1px $white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgb(20, 20, 20)
+}
+
+.topForm{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  margin-left: 17px;
+}
+
+form{
+  margin: 0 auto;
+  width: 500px;
+  min-width: 200px;
+}
+
+.form-control{
+  background-color: rgb(28, 48, 25)!important;
+  color: $myWhite !important;
+}
+
+.form-control::placeholder{
+  color: rgb(135, 135, 135) !important;
+}
+
+.bottomForm{
+  padding: 20px;
+}
+
+.formBtns{
+  margin-top: 10px;
+}
+
+.formBtn{
+  margin-right: 10px;
+}
+
+.formError{
+  color: rgb(224, 33, 33);
+}

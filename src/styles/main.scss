@@ -1,0 +1,11 @@
+
+// bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'; 
+
+//helpers
+@import './helpers/variables';
+
+@import './layout/app';
+@import './layout/UsersDashboard';
+@import './layout/AddItem';
+@import './layout/DeleteConfirmModal';
